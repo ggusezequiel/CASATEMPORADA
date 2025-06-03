@@ -12,7 +12,7 @@ const translations = {
     en: {
         navHome: "Home",
         navHouses: "Houses",
-        navRules: "Rules", // Nova tradução
+        navRules: "Rules", 
         navAbout: "About Us",
         heroTitle: "CASATEMPORADA",
         heroSubtitle: "Cavalcante - CHAPADA DOS VEADEIROS - BRAZIL",
@@ -20,7 +20,7 @@ const translations = {
         barrocoName: "BARROCO HOUSE",
         santaBarbaraName: "SANTA BARBARA HOUSE",
         prataName: "PRATA HOUSE",
-        rulesMainTitle: "House Rules & Information", // Nova tradução
+        rulesMainTitle: "House Rules & Information", 
         mapTitle: "Our Location",
         placeholderTitle: "Additional Section",
         placeholderText: "Demonstration content here."
@@ -36,7 +36,7 @@ const translations = {
         barrocoName: "CASA BARROCO",
         santaBarbaraName: "CASA SANTA BÁRBARA",
         prataName: "CASA PRATA",
-        rulesMainTitle: "Regras da Casa & Informações", // Nova tradução
+        rulesMainTitle: "Regras da Casa & Informações", 
         mapTitle: "Nossa Localização",
         placeholderTitle: "Seção Adicional",
         placeholderText: "Conteúdo de demonstração aqui."
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Alterna a visibilidade das imagens específicas do idioma (ex: na seção de regras)
+        
         document.querySelectorAll('.lang-image').forEach(img => {
             if (img.classList.contains(`lang-${lang}-image`)) {
                 img.style.display = 'block';
